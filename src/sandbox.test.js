@@ -7,11 +7,4 @@ describe('Subject', () => {
 
     expect(actual).toEqual(expected);
   });
-
-  it('should return true', () => {
-    const actual = subject();
-    const expected = true;
-
-    expect(actual).toEqual(expected);
-  });
 });
